@@ -1,0 +1,152 @@
+/* Estilos para el componente AdminPendientes */
+
+/* Cabecera */
+main {
+  background: var(--primary-bg-color);
+  font-family: 'Blinker';
+  padding-inline: 6vw; /* Cambiado a vw */
+  padding-top: 10vh; /* Cambiado a vh */
+  height: 100vh;
+  color: aliceblue;
+}
+
+main > div {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  flex-direction: column; /* Añadido para alinear verticalmente */
+}
+
+main > div.cabecera {
+  justify-content: space-between;
+  margin-bottom: 5vh; /* Cambiado a vh */
+  width: 100%; /* Añadido para ancho completo */
+}
+
+main > div.cabecera > h2 {
+  font-size: 2.5vw; /* Cambiado a vw */
+}
+
+main > div.cabecera > a {
+  color: var(--primary-bg-color);
+  border-radius: 100%;
+  padding: 2.15vh 4.8vw; /* Cambiado a vh y vw */
+  font-size: 1.8vw; /* Cambiado a vw */
+  background: var(--primaryAdmin-a-bg-color);
+}
+
+main > div.ordenarPendientes {
+  background: var(--secundaryAdmin-bg-color);
+  justify-content: space-around;
+  padding-block: 2vh; /* Cambiado a vh */
+  width: 100%;
+  font-size: 1vw; /* Cambiado a vw */
+}
+
+.ordenarSelectGrid select {
+  font-weight: 600;
+  outline: none;
+  padding: 0 5vw 0 15vw; /* Cambiado a vw */
+  border: 0;
+  font-size: 1vw; /* Cambiado a vw */
+  border-radius: 5px;
+}
+
+/* Estilos para el calendario */
+.calendar-container {
+  width: 80vw; /* Ajustado al ancho de la ventana */
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 2vh; /* Cambiado a vh */
+  border-radius: 8px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vh; /* Cambiado a vh */
+}
+
+.calendar-header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.date-picker {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  color: #333333;
+  max-width: 80vw; /* Ajustado al ancho de la ventana */
+  margin: 0 auto;
+  padding: 1vh; /* Cambiado a vh */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.date-picker-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1vh; /* Cambiado a vh */
+}
+
+.date-picker-header button {
+  background: none;
+  border: 1px solid #cccccc;
+  padding: 1vh 2vw; /* Cambiado a vh y vw */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.date-picker-month {
+  font-weight: bold;
+}
+
+.date-picker-body {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.time-selector {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vh 0; /* Cambiado a vh */
+}
+
+.time-selector select {
+  border: 1px solid #cccccc;
+  padding: 1vh; /* Cambiado a vh */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.date-confirm {
+  text-align: center;
+  padding: 1vh; /* Cambiado a vh */
+ 
+  border-radius: 0px;
+  margin-bottom: 2vh; /* Cambiado a vh */
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.calendar-footer {
+  margin-top: 2vh; /* Cambiado a vh */
+  text-align: center;
+}
+
+.cancel-button, .confirm-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 10vw; /* Cambiado a vw */
+}

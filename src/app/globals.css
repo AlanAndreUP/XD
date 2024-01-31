@@ -1,0 +1,39 @@
+:root{
+    --primary-bg-color: #191D88;
+    --primary-a-bg-color: #337CCF;
+
+    --secondary-bg-color: #1450A3;
+    
+    --tertiary-bg-color: #213555;
+
+    --primary-user-bg-color: #6C70E5;
+    --primary-user-button-color: rgb(3, 65, 141);
+    --secondary-user-bg-color: #9093E8;
+
+    --primaryAdmin-bg-color: #4BABAB;
+    --secundaryAdmin-bg-color: #0C0E44;
+
+    --primaryAdmin-a-bg-color: rgb(1, 172, 1);
+;
+}
+
+main{
+    padding-top: 16%;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+* a{
+    text-decoration: none;
+}
+
+.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+  }

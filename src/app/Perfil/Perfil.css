@@ -1,0 +1,91 @@
+main{
+    background: var(--primary-bg-color);
+    font-family: 'Blinker';
+    padding-inline: 6%;
+    padding-block: 1%;
+    height: 100vh;
+    color:aliceblue;
+}
+
+main > div.cabeceraPerfil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+main > div.cabeceraPerfil > h1{
+    font-size: 2.5em;
+}
+
+main > div.cabeceraPerfil > a{
+    background:var(--secondary-user-bg-color);
+    border-radius: 100%;
+    padding: 2.15% 2.8%;
+}
+
+main > div.cabeceraPerfil > a > svg{
+    color:var(--secondary-a-bg-color);
+    font-size: 2.5em;
+}
+
+main > div{
+    margin-block: 5%;
+}
+
+main > div > .contenedorProCit{
+    padding: 1.5%;
+    overflow-y: scroll;
+}
+
+main > div > p{
+    font-size: 120%;
+}
+
+main > div > div{
+    margin-top: 4%;
+    border-radius: 10px;
+    height: 25vh;
+    width: 100%;
+    background-color: var(--primary-user-bg-color);
+}
+
+main > div > div > .contenidoCitas{
+    display: grid;
+    row-gap: 5px;
+}
+
+main > div > div > div{
+    position: relative;
+}
+
+main > div > div > div > .defaultTexto{
+    text-align: center;
+    padding-top: 10vh;
+}
+
+main > div > div > div > .ocultarTexto{
+    display: none;
+}
+
+main > div.botonesNav{
+    margin-top: 7vh;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+main > div.botonesNav > button{
+    border: 0;
+    width: fit-content;
+    height: auto;
+    border-radius: 100%;
+    padding: 3%;
+    background-color: var(--primary-user-bg-color);
+}
+
+main > div.botonesNav > button > svg{
+    height: auto;
+    width: 12vw;
+    color: var(--primary-user-button-color);
+}
